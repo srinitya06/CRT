@@ -1,12 +1,13 @@
-def Ticket_Pricing(n: int) -> str:
+def Ticket_Pricing(n: int) -> int:
     if n < 5:
-        return "Free"
+        return 0
     elif 5 <= n <= 17:
-        return "$10"
+        return 10
     elif 18 <= n <= 64:
-        return "$20"
+        return 20
     else:
-        return "$15"
+        return 15
+
 
 if __name__ == '__main__':
     n = int(input())

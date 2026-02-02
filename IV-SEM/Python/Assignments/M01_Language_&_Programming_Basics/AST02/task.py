@@ -6,10 +6,11 @@ def even_odd(n: int) -> str:
             return "Not Weird"
         elif 6 <= n <= 20:
             return "Weird"
-        else:  # n > 20
+        else:
             return "Not Weird"
 
 
 if __name__ == '__main__':
     n = int(input())
     print(even_odd(n))
+
