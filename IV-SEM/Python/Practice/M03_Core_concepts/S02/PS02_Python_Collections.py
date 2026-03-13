@@ -64,4 +64,30 @@ class Solution:
             
         return candidate
 
+        
+'''
+
+'''
+#2) Creation of set:
+a = {1, 2, 3, 4, 5, 6}
+print(a)
+b = set([1, 2, 3, 45, 5])
+print(b)
+
+#3) adding elements to set:
+b = set([1,2,3,45,5])
+b.add(50)
+print(b)
+
+#4) Removing 
+b = set([1,2,3,45,5])
+b.remove(45)
+print(b)
+
+#5) Set Operations:
+a = {1,2,3,5,6}
+b = {10,2,3,5,60}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
 '''
