@@ -1,0 +1,11 @@
+# Rotate array
+'''
+class Solution:
+    def rotate( nums: List[int], k: int) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        for i in range(k):
+            p = nums.pop()
+            nums.insert(0,p)
+'''
